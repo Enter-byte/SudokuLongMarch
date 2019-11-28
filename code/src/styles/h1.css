@@ -1,0 +1,24 @@
+
+.app-contain{
+	background-color:#e5f5ff;
+	padding:0;
+	margin:0;
+	background:url(../assets/h1.png);
+	background-size: 100%;
+	background-repeat:no-repeat;
+	font:normal 14px/180% "SimSun"; 
+	text-align:center;
+	cursor:pointer;
+}
+
+.btn{
+	position:fixed; 
+	right:100px;
+	bottom: 30px;
+	cursor:pointer;
+}
+.btn .el-button{
+	width:200px;
+	height:60px;
+	font-size:25px;
+}

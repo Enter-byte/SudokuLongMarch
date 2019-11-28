@@ -1,0 +1,76 @@
+.app-contain{
+	background-color:#e5f5ff;
+	padding:0;
+	margin:0;
+}
+
+.btn{
+	position:fixed; 
+	right:100px;
+	bottom: 30px;
+	cursor:pointer;
+}
+.btn .el-button{
+	width:200px;
+	height:60px;
+	font-size:25px;
+}
+.btnTop{
+	position:fixed; 
+	right:40px;
+	top:110px;
+	cursor:pointer;
+}
+.btnTop .el-button{
+	width:40px;
+	height:40px;
+	font-size:20px;
+}
+.time {
+    font-size: 13px;
+    color: #999;
+}
+
+.bottom {
+	margin-top: 13px;
+	line-height: 12px;
+}
+
+.button {
+	padding: 0;
+	float: right;
+}
+
+.image {
+	width: 100%;
+	display: block;
+}
+
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	content: "";
+}
+
+.clearfix:after {
+	clear: both
+}
+.el-dialog__wrapper >>>.el-drawer.ttb{
+	height: 55% !important;
+}
+.el-carousel__item h3 {
+    color: #475669;
+    font-size: 14px;
+    opacity: 0.75;
+    line-height: 150px;
+    margin: 0;
+}
+.el-carousel__item:nth-child(2n) {
+    background-color: #99a9bf;
+}
+.el-carousel__item:nth-child(2n+1) {
+    background-color: #d3dce6;
+}
+.block{
+	margin:0 50px;
+}

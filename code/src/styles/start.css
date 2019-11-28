@@ -1,0 +1,91 @@
+.content{
+  background:url(../assets/bcg.png);
+	background-size:100% 100%;
+  background-repeat:no-repeat;
+  width:100%;
+  height:100%;
+}
+.welcome img{
+  position: absolute;
+  width:750px; 
+  height:160px; 
+  margin-left:-375px;
+  left:50%;
+  margin-top:-80px;
+  top:50%;
+}
+@-webkit-keyframes fadeInOut {
+  0% {
+      opacity:0;
+  }
+  50% {
+      opacity: 1;    
+  }
+  100% {
+      opacity:0;
+  }
+}
+.trans_fade_image {
+  position:absolute;    
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-name: fadeInOut;
+  -webkit-animation-duration: 6s;
+  animation-fill-mode: forwards; /*让动画停留在最后一帧 */
+}
+.choose {
+  width:1024px;
+  height:750px;
+  position: relative;
+  margin-left:-512px;
+  left:50%;
+}
+.topCho img{
+  width:1000px;
+  height:700px;
+  position: absolute;
+  margin-left:-500px;
+  left:50%;
+  margin-top:-350px;
+  top:50%;
+}
+@-webkit-keyframes fadeIn{
+  0% {
+      opacity:0;
+  }
+  50% {
+      opacity: 0;    
+  }
+  100% {
+      opacity:1;
+  }
+}
+.cho {
+  position:absolute;    
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 10s;
+  animation-fill-mode: forwards; /*让动画停留在最后一帧 */
+}
+.choContent{
+  /* z-index: 999999; */
+  width:100%;
+  /* height:550px; */
+  position: absolute;
+  top:28%;
+}
+.colLeft >>> .el-link--inner{
+  font-size:39px;
+  line-height: 1.5em;
+  font-family:"KaiTi","Microsoft YaHei";
+  font-weight: bold;
+}
+.colRight img{
+  width:200px;
+  height:450px;
+  margin-left:30%;
+}
+.rightR >>> .el-button--large{
+  /* float: right; */
+  position: absolute;
+  bottom: 0;
+}
