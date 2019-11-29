@@ -8,5 +8,5 @@
 *不清楚的可以问一下
 
 *提交代码的时候先执行git add .
-*再执行gitcommitž这个时候是将代码传到本地仓库
-*还需要执行gitpush到远程的git仓库
+*再执行git commit这个时候是将代码传到本地仓库
+* 还需要执行git push到远程的git仓库
